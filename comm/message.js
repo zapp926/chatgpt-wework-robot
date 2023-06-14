@@ -8,7 +8,7 @@ import { parseString }  from "xml2js";
 config();
 
 const base = {
-  url: 'https://qyapi.weixin.qq.com/cgi-bin',
+  url: 'https://chatgpt.psychtech.cn/cgi-bin',
 };
 
 export default class Message {
