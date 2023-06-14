@@ -8,7 +8,7 @@ import { OpenAI } from "../service/openai.js";
 import { getAccessToken } from "../comm/accesstoken.js";
 import { XMLUserMsg, MDUserMsg, TextUserMsg } from "./templates.js";
 
-const host = "https://qyapi.weixin.qq.com/cgi-bin";
+const host = "https://chatgpt.psychtech.cn/cgi-bin";
 
 export default class TextChat extends Chat{
   
